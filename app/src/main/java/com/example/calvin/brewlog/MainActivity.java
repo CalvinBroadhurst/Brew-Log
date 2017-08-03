@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    //Start a new Brew activity
     public void startNewBrew(View view){
         Intent intent = new Intent(MainActivity.this, StartNewBrew.class);
         startActivity(intent);
